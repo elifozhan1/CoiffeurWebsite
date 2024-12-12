@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CoiffeurWebsite",
+    "\\CoiffeurWebsite\\bin",
+    "\\CoiffeurWebsite\\Controllers",
+    "\\CoiffeurWebsite\\Models",
+    "\\CoiffeurWebsite\\Views",
+    "\\CoiffeurWebsite\\Views\\Home"
+  ],
+  "SelectedNode": "\\CoiffeurWebsite\\Models\\Employee.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoiffeurWebsite\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoiffeurWebsite\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\EmployeeContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoiffeurWebsite\\Models\\EmployeeContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoiffeurWebsite\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CoiffeurWebsite\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CoiffeurWebsite\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T15:23:15.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoiffeurWebsite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CoiffeurWebsite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T15:22:08.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "CoiffeurWebsite\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Employee.cs",
+              "RelativeToolTip": "CoiffeurWebsite\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T15:10:04.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeContext.cs",
+              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\EmployeeContext.cs",
+              "RelativeDocumentMoniker": "CoiffeurWebsite\\Models\\EmployeeContext.cs",
+              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\EmployeeContext.cs",
+              "RelativeToolTip": "CoiffeurWebsite\\Models\\EmployeeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T15:09:32.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
