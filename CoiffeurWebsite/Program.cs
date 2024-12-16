@@ -1,7 +1,16 @@
+using CoiffeurWebsite.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var conn = "Server=(localdb)\\mssqllocaldb;Database=CoiffeurWebsite;Trusted_Connection=True";
+
+builder.Services.AddDbContext<ApplicationDbContext>(
+    options => options.UseSqlServer(conn)
+    );
 
 var app = builder.Build();
 

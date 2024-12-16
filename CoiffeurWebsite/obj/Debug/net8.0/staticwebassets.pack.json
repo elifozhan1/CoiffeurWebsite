@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\wwwroot\\images\\hair-color.jpg",
+      "PackagePath": "staticwebassets\\images\\hair-color.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\wwwroot\\images\\hair-cut.jpg",
+      "PackagePath": "staticwebassets\\images\\hair-cut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\wwwroot\\images\\hair-model.PNG",
+      "PackagePath": "staticwebassets\\images\\hair-model.PNG"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\wwwroot\\images\\index-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\index-bg.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

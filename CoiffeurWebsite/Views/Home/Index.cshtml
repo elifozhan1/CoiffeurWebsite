@@ -2,7 +2,80 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coiffeur Lotus</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        /* Custom CSS */
+        .hero-section {
+            background-image: url('/images/index-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 4rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Welcome to Coiffeur Lotus</h1>
+            <p>We are at your service with our expert team in hair cutting, dyeing and care.</p>
+            <a href="#services" class="btn btn-primary btn-lg">Check Out Our Treatments</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>About Us</h2>
+            <p>Choose us for the latest hair styles and professional care. Reflect your personal style in the best way with our expert team.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Treatments</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="/images/hair-cut.jpg" alt="Haircut" class="img-fluid mb-3">
+                    <h3>Haircut</h3>
+                    <p>Renew your style with our professional cutting services.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="/images/hair-color.jpg" alt="Hair Dye" class="img-fluid mb-3">
+                    <h3>Hair Dye</h3>
+                    <p>We apply the latest color trends and techniques.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="/images/hair-model.PNG" alt="Hair Styling" class="img-fluid mb-3">
+                    <h3>Hair Styling</h3>
+                    <p>We carefully design the unique model that will make you feel the best.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS ve jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

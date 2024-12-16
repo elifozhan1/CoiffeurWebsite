@@ -4,7 +4,7 @@
     {
         public int TreatmentID { get; set; }
         public string TreatmentName { get; set; }
-        public int EmployeeID { get; set; }
-        public Employee employee { get; set; }
+
+        public ICollection<Employee>? Employees { get; set; }
     }
 }

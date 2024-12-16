@@ -3,16 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CoiffeurWebsite/True/SqlTable/dbo.Employees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CoiffeurWebsite/True/SqlTable/dbo.Treatments.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\migrations\\20241216164744_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:migrations\\20241216164744_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\salon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\salon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\treatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\treatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,18 +63,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\treatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\treatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\salon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\salon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,7 +76,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,33 +84,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\EmployeeContext.cs",
-              "RelativeDocumentMoniker": "Models\\EmployeeContext.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\EmployeeContext.cs",
-              "RelativeToolTip": "Models\\EmployeeContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:57:05.059Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.Employees [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CoiffeurWebsite/True/SqlTable/dbo.Employees.sql",
+              "ToolTip": "dbo.Employees [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-16T17:12:30.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:09:02.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T17:07:37.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:04:01.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Treatments.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CoiffeurWebsite/True/SqlTable/dbo.Treatments.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CoiffeurWebsite/True/SqlTable/dbo.Treatments.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-16T17:03:15.76Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "20241216164744_CreateDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Migrations\\20241216164744_CreateDatabase.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241216164744_CreateDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Migrations\\20241216164744_CreateDatabase.cs",
+              "RelativeToolTip": "Migrations\\20241216164744_CreateDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:47:44.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:44:54.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Appointment.cs",
+              "RelativeToolTip": "Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:40:26.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:39:29.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Treatment.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Treatment.cs",
               "RelativeDocumentMoniker": "Models\\Treatment.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Treatment.cs",
               "RelativeToolTip": "Models\\Treatment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:42:58.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T15:42:58.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -88,38 +209,47 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:13:47.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T15:13:47.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Salon.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Salon.cs",
               "RelativeDocumentMoniker": "Models\\Salon.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Salon.cs",
               "RelativeToolTip": "Models\\Salon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:09:09.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T15:09:09.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Models\\Employee.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Employee.cs",
               "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:07:05.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T15:07:05.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T15:27:55.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -127,12 +257,11 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T14:51:31.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T14:51:31.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -140,25 +269,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T14:55:02.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T14:55:02.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:27:55.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -166,8 +281,7 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T15:27:52.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T15:27:52.306Z"
             }
           ]
         }
