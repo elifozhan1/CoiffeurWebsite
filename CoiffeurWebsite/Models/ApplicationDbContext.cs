@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
-using CoiffeurWebsite.Models;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace CoiffeurWebsite.Models
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -11,6 +13,7 @@ namespace CoiffeurWebsite.Models
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Treatment> Treatments { get; set; }
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<CoiffeurWebsite.Models.Salon> Salon { get; set; } = default!;
+        public DbSet<Salon> Salons { get; set; }
+
     }
 }

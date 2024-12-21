@@ -21,7 +21,7 @@ namespace CoiffeurWebsite.Controllers
         // GET: Salons
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Salon.ToListAsync());
+            return View(await _context.Salons.ToListAsync());
         }
 
         // GET: Salons/Details/5
@@ -32,7 +32,7 @@ namespace CoiffeurWebsite.Controllers
                 return NotFound();
             }
 
-            var salon = await _context.Salon
+            var salon = await _context.Salons
                 .FirstOrDefaultAsync(m => m.SalonID == id);
             if (salon == null)
             {
@@ -72,7 +72,7 @@ namespace CoiffeurWebsite.Controllers
                 return NotFound();
             }
 
-            var salon = await _context.Salon.FindAsync(id);
+            var salon = await _context.Salons.FindAsync(id);
             if (salon == null)
             {
                 return NotFound();
@@ -123,7 +123,7 @@ namespace CoiffeurWebsite.Controllers
                 return NotFound();
             }
 
-            var salon = await _context.Salon
+            var salon = await _context.Salons
                 .FirstOrDefaultAsync(m => m.SalonID == id);
             if (salon == null)
             {
@@ -138,10 +138,10 @@ namespace CoiffeurWebsite.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var salon = await _context.Salon.FindAsync(id);
+            var salon = await _context.Salons.FindAsync(id);
             if (salon != null)
             {
-                _context.Salon.Remove(salon);
+                _context.Salons.Remove(salon);
             }
 
             await _context.SaveChangesAsync();
@@ -150,7 +150,7 @@ namespace CoiffeurWebsite.Controllers
 
         private bool SalonExists(int id)
         {
-            return _context.Salon.Any(e => e.SalonID == id);
+            return _context.Salons.Any(e => e.SalonID == id);
         }
     }
 }
