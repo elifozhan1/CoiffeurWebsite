@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CoiffeurWebsite.Models
 {
-    public class ApplicationDbContext : IdentityDbContext<UserDetails>
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 

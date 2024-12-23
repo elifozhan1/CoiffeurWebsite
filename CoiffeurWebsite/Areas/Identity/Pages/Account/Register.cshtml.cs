@@ -12,7 +12,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
-using CoiffeurWebsite.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -46,6 +45,7 @@ namespace CoiffeurWebsite.Areas.Identity.Pages.Account
             _emailSender = emailSender;
         }
 
+        
         /// <summary>
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
@@ -75,16 +75,6 @@ namespace CoiffeurWebsite.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            /// 
-            [Required]
-            [Display(Name = "İsim giriniz.")]
-            public string UserFirstName { get; set; }
-
-            [Required]
-            [Display(Name = "Soyisim giriniz.")]
-            public string UserLastName { get; set; }
-
-
             [Required]
             [EmailAddress]
             [Display(Name = "Email")]
@@ -124,9 +114,6 @@ namespace CoiffeurWebsite.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-
-                user.UserFirstName = Input.UserFirstName;
-                user.UserLastName = Input.UserLastName;
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
