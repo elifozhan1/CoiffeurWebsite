@@ -21,7 +21,7 @@ namespace CoiffeurWebsite.Controllers
         // GET: Appointments
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Appointments.Include(a => a.customer).Include(a => a.employee);
+            var applicationDbContext = _context.Appointments.Include(a => a.Employee).Include(a => a.User);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -34,8 +34,8 @@ namespace CoiffeurWebsite.Controllers
             }
 
             var appointment = await _context.Appointments
-                .Include(a => a.customer)
-                .Include(a => a.employee)
+                .Include(a => a.Employee)
+                .Include(a => a.User)
                 .FirstOrDefaultAsync(m => m.AppointmentID == id);
             if (appointment == null)
             {
@@ -48,8 +48,8 @@ namespace CoiffeurWebsite.Controllers
         // GET: Appointments/Create
         public IActionResult Create()
         {
-            ViewData["CustomerID"] = new SelectList(_context.Customers, "CustomerID", "CustomerID");
             ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeID");
+            ViewData["userId"] = new SelectList(_context.Users, "Id", "Id");
             return View();
         }
 
@@ -58,7 +58,7 @@ namespace CoiffeurWebsite.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("AppointmentID,AppointmentDate,Status,CustomerID,EmployeeID")] Appointment appointment)
+        public async Task<IActionResult> Create([Bind("AppointmentID,AppointmentDate,Status,userId,EmployeeID")] Appointment appointment)
         {
             if (ModelState.IsValid)
             {
@@ -66,8 +66,8 @@ namespace CoiffeurWebsite.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CustomerID"] = new SelectList(_context.Customers, "CustomerID", "CustomerID", appointment.CustomerID);
             ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeID", appointment.EmployeeID);
+            ViewData["userId"] = new SelectList(_context.Users, "Id", "Id", appointment.userId);
             return View(appointment);
         }
 
@@ -84,8 +84,8 @@ namespace CoiffeurWebsite.Controllers
             {
                 return NotFound();
             }
-            ViewData["CustomerID"] = new SelectList(_context.Customers, "CustomerID", "CustomerID", appointment.CustomerID);
             ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeID", appointment.EmployeeID);
+            ViewData["userId"] = new SelectList(_context.Users, "Id", "Id", appointment.userId);
             return View(appointment);
         }
 
@@ -94,7 +94,7 @@ namespace CoiffeurWebsite.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("AppointmentID,AppointmentDate,Status,CustomerID,EmployeeID")] Appointment appointment)
+        public async Task<IActionResult> Edit(int id, [Bind("AppointmentID,AppointmentDate,Status,userId,EmployeeID")] Appointment appointment)
         {
             if (id != appointment.AppointmentID)
             {
@@ -121,8 +121,8 @@ namespace CoiffeurWebsite.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CustomerID"] = new SelectList(_context.Customers, "CustomerID", "CustomerID", appointment.CustomerID);
             ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeID", appointment.EmployeeID);
+            ViewData["userId"] = new SelectList(_context.Users, "Id", "Id", appointment.userId);
             return View(appointment);
         }
 
@@ -135,8 +135,8 @@ namespace CoiffeurWebsite.Controllers
             }
 
             var appointment = await _context.Appointments
-                .Include(a => a.customer)
-                .Include(a => a.employee)
+                .Include(a => a.Employee)
+                .Include(a => a.User)
                 .FirstOrDefaultAsync(m => m.AppointmentID == id);
             if (appointment == null)
             {

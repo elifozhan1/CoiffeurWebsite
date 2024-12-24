@@ -12,7 +12,6 @@ namespace CoiffeurWebsite.Models
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Treatment> Treatments { get; set; }
-        public DbSet<Customer> Customers { get; set; }
         public DbSet<Salon> Salons { get; set; }
 
     }
