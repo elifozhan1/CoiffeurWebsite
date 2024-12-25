@@ -4,6 +4,7 @@ using CoiffeurWebsite.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CoiffeurWebsite.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241225073041_StatusValue")]
+    partial class StatusValue
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,9 +43,6 @@ namespace CoiffeurWebsite.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TreatmentID")
-                        .HasColumnType("int");
-
                     b.Property<string>("userId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -50,8 +50,6 @@ namespace CoiffeurWebsite.Migrations
                     b.HasKey("AppointmentID");
 
                     b.HasIndex("EmployeeID");
-
-                    b.HasIndex("TreatmentID");
 
                     b.HasIndex("userId");
 
@@ -333,21 +331,13 @@ namespace CoiffeurWebsite.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CoiffeurWebsite.Models.Treatment", "Treatment")
-                        .WithMany()
-                        .HasForeignKey("TreatmentID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
                     b.HasOne("CoiffeurWebsite.Models.UserDetails", "User")
-                        .WithMany("Appointments")
+                        .WithMany()
                         .HasForeignKey("userId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Employee");
-
-                    b.Navigation("Treatment");
 
                     b.Navigation("User");
                 });
@@ -430,11 +420,6 @@ namespace CoiffeurWebsite.Migrations
             modelBuilder.Entity("CoiffeurWebsite.Models.Treatment", b =>
                 {
                     b.Navigation("Employees");
-                });
-
-            modelBuilder.Entity("CoiffeurWebsite.Models.UserDetails", b =>
-                {
-                    b.Navigation("Appointments");
                 });
 #pragma warning restore 612, 618
         }

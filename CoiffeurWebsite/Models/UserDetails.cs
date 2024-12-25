@@ -6,5 +6,7 @@ namespace CoiffeurWebsite.Models
     {
         public string UserFirstName { get; set; }
         public string UserLastName { get; set; }
+
+        public ICollection<Appointment> Appointments { get; set; }
     }
 }

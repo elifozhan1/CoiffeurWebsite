@@ -4,6 +4,7 @@ using CoiffeurWebsite.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CoiffeurWebsite.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241225080306_TreatmentAddToAppointment")]
+    partial class TreatmentAddToAppointment
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -340,7 +343,7 @@ namespace CoiffeurWebsite.Migrations
                         .IsRequired();
 
                     b.HasOne("CoiffeurWebsite.Models.UserDetails", "User")
-                        .WithMany("Appointments")
+                        .WithMany()
                         .HasForeignKey("userId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -430,11 +433,6 @@ namespace CoiffeurWebsite.Migrations
             modelBuilder.Entity("CoiffeurWebsite.Models.Treatment", b =>
                 {
                     b.Navigation("Employees");
-                });
-
-            modelBuilder.Entity("CoiffeurWebsite.Models.UserDetails", b =>
-                {
-                    b.Navigation("Appointments");
                 });
 #pragma warning restore 612, 618
         }

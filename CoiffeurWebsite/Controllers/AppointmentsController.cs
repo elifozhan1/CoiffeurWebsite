@@ -6,24 +6,38 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CoiffeurWebsite.Models;
+using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
 
 namespace CoiffeurWebsite.Controllers
 {
     public class AppointmentsController : Controller
     {
+        private readonly UserManager<UserDetails> _userManager;
         private readonly ApplicationDbContext _context;
 
-        public AppointmentsController(ApplicationDbContext context)
+        public AppointmentsController(ApplicationDbContext context, UserManager<UserDetails> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Appointments
+
+
+
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Appointments.Include(a => a.Employee).Include(a => a.User);
-            return View(await applicationDbContext.ToListAsync());
+            // Include ile ilişkili tabloları getiriyoruz.
+            var appointments = _context.Appointments
+                .Include(a => a.Employee)
+                .Include(a => a.Treatment)
+                .Include(a => a.User) // Eğer User bilgisi gerekiyorsa
+                .ToListAsync();
+
+            return View(await appointments);
         }
+
 
         // GET: Appointments/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -48,8 +62,8 @@ namespace CoiffeurWebsite.Controllers
         // GET: Appointments/Create
         public IActionResult Create()
         {
-            ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeID");
-            ViewData["userId"] = new SelectList(_context.Users, "Id", "Id");
+            ViewBag.Treatments = _context.Treatments.ToList();
+            ViewBag.Employees = _context.Employees.ToList(); // Tüm çalışanları gönderiyoruz
             return View();
         }
 
@@ -58,18 +72,37 @@ namespace CoiffeurWebsite.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("AppointmentID,AppointmentDate,Status,userId,EmployeeID")] Appointment appointment)
+        public async Task<IActionResult> Create([Bind("AppointmentID,AppointmentDate,Status,EmployeeID,TreatmentID")] Appointment appointment)
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{ }
+                // Giriş yapan kullanıcının e-postasını al
+                var userEmail = User.Identity.Name;
+                var user = await _userManager.FindByEmailAsync(userEmail);
+
+                if (user == null)
+                {
+                    return NotFound("Kullanıcı bulunamadı.");
+                }
+
+                // UserId'yi ata
+                appointment.userId = user.Id;
+
+                // Varsayılan durum ataması
+                appointment.Status = "Pending";
+
                 _context.Add(appointment);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeID", appointment.EmployeeID);
-            ViewData["userId"] = new SelectList(_context.Users, "Id", "Id", appointment.userId);
-            return View(appointment);
+            
+
+            //ViewData["TreatmentID"] = new SelectList(_context.Treatments, "TreatmentID", "TreatmentName", appointment.TreatmentID);
+            //ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeName", appointment.EmployeeID);
+            //ViewBag.Treatments = _context.Treatments.ToList();
+            //ViewBag.Employees = _context.Employees.ToList();
+            //return View(appointment);
         }
+
 
         // GET: Appointments/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -101,30 +134,35 @@ namespace CoiffeurWebsite.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(appointment);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!AppointmentExists(appointment.AppointmentID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeID", appointment.EmployeeID);
-            ViewData["userId"] = new SelectList(_context.Users, "Id", "Id", appointment.userId);
-            return View(appointment);
+            _context.Update(appointment);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
+            //if (ModelState.IsValid)
+            //{
+            //    try
+            //    {
+            //        _context.Update(appointment);
+            //        await _context.SaveChangesAsync();
+            //    }
+            //    catch (DbUpdateConcurrencyException)
+            //    {
+            //        if (!AppointmentExists(appointment.AppointmentID))
+            //        {
+            //            return NotFound();
+            //        }
+            //        else
+            //        {
+            //            throw;
+            //        }
+            //    }
+            //    return RedirectToAction(nameof(Index));
+            //}
+            //ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeID", appointment.EmployeeID);
+            //ViewData["userId"] = new SelectList(_context.Users, "Id", "Id", appointment.userId);
+            //return View(appointment);
         }
+
 
         // GET: Appointments/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -165,5 +203,6 @@ namespace CoiffeurWebsite.Controllers
         {
             return _context.Appointments.Any(e => e.AppointmentID == id);
         }
+
     }
 }

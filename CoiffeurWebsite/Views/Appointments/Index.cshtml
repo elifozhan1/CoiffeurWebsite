@@ -37,10 +37,10 @@
                 @Html.DisplayFor(modelItem => item.Status)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.User.Id)
+                    @Html.DisplayFor(modelItem => item.User.UserFirstName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Employee.EmployeeID)
+                @Html.DisplayFor(modelItem => item.Employee.EmployeeName)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.AppointmentID">Edit</a> |
@@ -48,6 +48,7 @@
                 <a asp-action="Delete" asp-route-id="@item.AppointmentID">Delete</a>
             </td>
         </tr>
+
 }
     </tbody>
 </table>

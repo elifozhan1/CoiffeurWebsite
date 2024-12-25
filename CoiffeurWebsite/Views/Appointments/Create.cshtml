@@ -4,43 +4,76 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Create Appointment</h1>
 
-<h4>Appointment</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="AppointmentDate" class="control-label"></label>
-                <input asp-for="AppointmentDate" class="form-control" />
-                <span asp-validation-for="AppointmentDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="userId" class="control-label"></label>
-                <select asp-for="userId" class ="form-control" asp-items="ViewBag.userId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="EmployeeID" class="control-label"></label>
-                <select asp-for="EmployeeID" class ="form-control" asp-items="ViewBag.EmployeeID"></select>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="AppointmentDate" class="control-label"></label>
+        <input asp-for="AppointmentDate" class="form-control" />
+        <span asp-validation-for="AppointmentDate" class="text-danger"></span>
     </div>
-</div>
+    <div class="form-group">
+        <label asp-for="TreatmentID" class="control-label"></label>
+        <select asp-for="TreatmentID" class="form-control" id="treatmentDropdown">
+            @if (ViewBag.Treatments != null && ViewBag.Treatments.Count > 0){
+
+                @foreach (var treatment in ViewBag.Treatments)
+                {
+                    <option value="@treatment.TreatmentID">@treatment.TreatmentName</option>
+                }
+            }
+            else
+            {
+                <p>No treatments available.</p>
+            }
+
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="EmployeeID" class="control-label"></label>
+        <select asp-for="EmployeeID" class="form-control" id="employeeDropdown">
+             @if (ViewBag.Treatments != null && ViewBag.Treatments.Count > 0)
+             {
+                @foreach (var employee in ViewBag.Employees)
+                {
+                    <option value="@employee.EmployeeID" data-treatment-id="@employee.TreatmentID">
+                        @employee.EmployeeName
+                    </option>
+                }
+             }
+            else
+            {
+                <p>No employee available.</p>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
 
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(document).ready(function () {
+            $('#treatmentDropdown').change(function () {
+                var selectedTreatmentId = $(this).val();
+                $('#employeeDropdown option').each(function () {
+                    var employeeTreatmentId = $(this).data('treatment-id');
+                    if (employeeTreatmentId == selectedTreatmentId) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+        });
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

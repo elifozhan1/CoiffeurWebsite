@@ -100,29 +100,33 @@ namespace CoiffeurWebsite.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(employee);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!EmployeeExists(employee.EmployeeID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["SalonID"] = new SelectList(_context.Set<Salon>(), "SalonID", "SalonName", employee.SalonID);
-            ViewData["TreatmentID"] = new SelectList(_context.Treatments, "TreatmentID", "TreatmentName", employee.TreatmentID);
-            return View(employee);
+            _context.Update(employee);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
+            //if (ModelState.IsValid)
+            //{
+            //    try
+            //    {
+            //        _context.Update(employee);
+            //        await _context.SaveChangesAsync();
+            //    }
+            //    catch (DbUpdateConcurrencyException)
+            //    {
+            //        if (!EmployeeExists(employee.EmployeeID))
+            //        {
+            //            return NotFound();
+            //        }
+            //        else
+            //        {
+            //            throw;
+            //        }
+            //    }
+            //    return RedirectToAction(nameof(Index));
+            //}
+            //ViewData["SalonID"] = new SelectList(_context.Set<Salon>(), "SalonID", "SalonName", employee.SalonID);
+            //ViewData["TreatmentID"] = new SelectList(_context.Treatments, "TreatmentID", "TreatmentName", employee.TreatmentID);
+            //return View(employee);
         }
 
         // GET: Employees/Delete/5
