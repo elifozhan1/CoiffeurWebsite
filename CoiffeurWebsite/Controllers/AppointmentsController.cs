@@ -127,41 +127,42 @@ namespace CoiffeurWebsite.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("AppointmentID,AppointmentDate,Status,userId,EmployeeID")] Appointment appointment)
+        public async Task<IActionResult> Edit(int id, [Bind("AppointmentID,Status")] Appointment appointment)
         {
             if (id != appointment.AppointmentID)
             {
                 return NotFound();
             }
 
-            _context.Update(appointment);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            var existingAppointment = await _context.Appointments.FindAsync(id);
+            if (existingAppointment == null)
+            {
+                return NotFound();
+            }
 
-            //if (ModelState.IsValid)
-            //{
-            //    try
-            //    {
-            //        _context.Update(appointment);
-            //        await _context.SaveChangesAsync();
-            //    }
-            //    catch (DbUpdateConcurrencyException)
-            //    {
-            //        if (!AppointmentExists(appointment.AppointmentID))
-            //        {
-            //            return NotFound();
-            //        }
-            //        else
-            //        {
-            //            throw;
-            //        }
-            //    }
-            //    return RedirectToAction(nameof(Index));
-            //}
-            //ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeID", appointment.EmployeeID);
-            //ViewData["userId"] = new SelectList(_context.Users, "Id", "Id", appointment.userId);
-            //return View(appointment);
+            // Sadece Status alanını güncelle
+            existingAppointment.Status = appointment.Status;
+
+            try
+            {
+                _context.Update(existingAppointment);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!AppointmentExists(appointment.AppointmentID))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return RedirectToAction(nameof(Index));
         }
+
 
 
         // GET: Appointments/Delete/5
