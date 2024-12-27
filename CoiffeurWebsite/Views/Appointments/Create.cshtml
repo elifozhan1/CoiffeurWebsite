@@ -87,10 +87,10 @@
                 const selectedDate = new Date(value);
                 const currentDate = new Date();
 
-                // Geçmiş tarih kontrolü
+                // Geçmiş tarih kontrolü 
                 if (selectedDate < currentDate) {
                     alert("Appointment cannot be scheduled in the past.");
-                    appointment.value = ''; // Seçimi sıfırla
+                    appointment.value = ''; // Seçimi sıfırlar
                     return;
                 }
 
@@ -98,7 +98,7 @@
                 const selectedHours = selectedDate.getHours();
                 if (selectedHours < 9 || selectedHours >= 18) {
                     alert("Appointments must be scheduled between 09:00 and 18:00.");
-                    appointment.value = ''; // Seçimi sıfırla
+                    appointment.value = ''; // Seçimi sıfırlar
                     return;
                 }
 
@@ -106,7 +106,7 @@
                 const dayOfWeek = selectedDate.getDay();
                 if (dayOfWeek === 0 || dayOfWeek === 6) {
                     alert("Appointments cannot be scheduled on weekends.");
-                    appointment.value = ''; // Seçimi sıfırla
+                    appointment.value = ''; // Seçimi sıfırlar
                     return;
                 }
             });
@@ -121,7 +121,7 @@
                 }
 
                 try {
-                    // API çağrısı yap
+                    // API çağrısı yapar
                     const response = await fetch(`/Employees/Skills/${selectedTreatmentId}`);
                     if (!response.ok) {
                         throw new Error("Error fetching employees");
@@ -138,11 +138,11 @@
             });
 
             function fillEmployeeDropdown(employees) {
-                // Employee dropdown'ını temizle
+                // Employee dropdown'ını temizler
                 employeeDropdown.innerHTML = '';
 
                 if (employees.length === 0) {
-                    // Çalışan bulunamadığında bir mesaj göster
+                    // Çalışan bulunamadığında bir mesaj gösterir
                     const noOption = document.createElement('option');
                     noOption.text = "No employees available";
                     noOption.value = '';
@@ -150,7 +150,7 @@
                     return;
                 }
 
-                // Gelen çalışanları dropdown'a ekle
+                // Gelen çalışanları dropdown'a ekler
                 employees.forEach(employee => {
                     const option = document.createElement('option');
                     option.value = employee.employeeID;
