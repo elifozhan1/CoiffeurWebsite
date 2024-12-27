@@ -59,6 +59,11 @@ namespace CoiffeurWebsite.Controllers
             return View(appointment);
         }
 
+        public bool IsAppointmentAvailable(DateTime appointmentDate)
+        {
+            return !_context.Appointments.Any(a => a.AppointmentDate == appointmentDate);
+        }
+
         // GET: Appointments/Create
         public IActionResult Create()
         {
@@ -90,6 +95,13 @@ namespace CoiffeurWebsite.Controllers
 
                 // Varsayılan durum ataması
                 appointment.Status = "Pending";
+
+                if (!IsAppointmentAvailable(appointment.AppointmentDate))
+                {
+                    ModelState.AddModelError("AppointmentDate", "Bu tarih ve saatte zaten bir randevu bulunmaktadır.");
+                    return View(appointment);
+                }
+
 
                 _context.Add(appointment);
                 await _context.SaveChangesAsync();
@@ -203,6 +215,16 @@ namespace CoiffeurWebsite.Controllers
         private bool AppointmentExists(int id)
         {
             return _context.Appointments.Any(e => e.AppointmentID == id);
+        }
+
+        [HttpGet("Employees/Skills/{id}")]
+        public async Task<IActionResult> GetEmployeesBySkillId([FromRoute] int id)
+        {
+            var employees = await _context.Employees
+                .Where(e => e.TreatmentID == id)
+                .ToListAsync();
+
+            return Json(employees);
         }
 
     }

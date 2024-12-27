@@ -9,7 +9,7 @@
 <form asp-action="Create">
     <div class="form-group">
         <label asp-for="AppointmentDate" class="control-label"></label>
-        <input asp-for="AppointmentDate" class="form-control" />
+        <input asp-for="AppointmentDate" class="form-control" id="appointment"/>
         <span asp-validation-for="AppointmentDate" class="text-danger"></span>
     </div>
     <div class="form-group">
@@ -58,6 +58,7 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+
 @section Scripts {
     <script>
         $(document).ready(function () {
@@ -73,6 +74,92 @@
                 });
             });
         });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const appointment = document.getElementById('appointment');
+            const treatmentDropdown = document.getElementById('treatmentDropdown');
+            const employeeDropdown = document.getElementById('employeeDropdown');
+
+            appointment.addEventListener('change', () => {
+                const value = appointment.value;
+                const selectedDate = new Date(value);
+                const currentDate = new Date();
+
+                // Geçmiş tarih kontrolü
+                if (selectedDate < currentDate) {
+                    alert("Appointment cannot be scheduled in the past.");
+                    appointment.value = ''; // Seçimi sıfırla
+                    return;
+                }
+
+                // Çalışma saatleri kontrolü
+                const selectedHours = selectedDate.getHours();
+                if (selectedHours < 9 || selectedHours >= 18) {
+                    alert("Appointments must be scheduled between 09:00 and 18:00.");
+                    appointment.value = ''; // Seçimi sıfırla
+                    return;
+                }
+
+                // Hafta sonu kontrolü
+                const dayOfWeek = selectedDate.getDay();
+                if (dayOfWeek === 0 || dayOfWeek === 6) {
+                    alert("Appointments cannot be scheduled on weekends.");
+                    appointment.value = ''; // Seçimi sıfırla
+                    return;
+                }
+            });
+
+            treatmentDropdown.addEventListener('change', async () => {
+                const selectedTreatmentId = treatmentDropdown.value;
+
+                // Boş bir seçim yapıldıysa çalışan listesini temizle
+                if (!selectedTreatmentId) {
+                    fillEmployeeDropdown([]);
+                    return;
+                }
+
+                try {
+                    // API çağrısı yap
+                    const response = await fetch(`/Employees/Skills/${selectedTreatmentId}`);
+                    if (!response.ok) {
+                        throw new Error("Error fetching employees");
+                    }
+
+                    const employees = await response.json();
+
+                    // Çalışan listesi dolduruluyor
+                    fillEmployeeDropdown(employees);
+                } catch (error) {
+                    console.error("Failed to fetch employees:", error);
+                    fillEmployeeDropdown([]);
+                }
+            });
+
+            function fillEmployeeDropdown(employees) {
+                // Employee dropdown'ını temizle
+                employeeDropdown.innerHTML = '';
+
+                if (employees.length === 0) {
+                    // Çalışan bulunamadığında bir mesaj göster
+                    const noOption = document.createElement('option');
+                    noOption.text = "No employees available";
+                    noOption.value = '';
+                    employeeDropdown.appendChild(noOption);
+                    return;
+                }
+
+                // Gelen çalışanları dropdown'a ekle
+                employees.forEach(employee => {
+                    const option = document.createElement('option');
+                    option.value = employee.employeeID;
+                    option.text = employee.employeeName;
+                    employeeDropdown.appendChild(option);
+                });
+            }
+        });
+
     </script>
 
     @{
