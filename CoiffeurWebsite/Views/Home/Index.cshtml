@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
     <title>Coiffeur Lotus</title>
     <!-- Bootstrap CDN -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
@@ -19,10 +19,25 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
-            
+
             <h1>Welcome to Coiffeur Lotus</h1>
             <p>We are at your service with our expert team in hair cutting, dyeing and care.</p>
             <a href="#services" class="btn btn-outline-secondary btn-lg">Check Out Our Treatments</a>
+            <br></br>
+
+
+            @*   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active d-flex justify-content-center align-items-center">
+            <img class="d-block w-50" src="~/images/Designer(5).jpeg" alt="Salonumuz">
+            </div>
+            @*  <div class="carousel-item">
+            <img class="d-block w-50" src="~/images/Designer(6).jpeg" alt="sizin">
+            </div> *@
+
+            
+
+
         </div>
     </section>
     <hr style="border: 5px inset  #ffafc9;">
@@ -35,6 +50,33 @@
         </div>
     </section>
 
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active d-flex justify-content-center align-items-center" style="height: 300px;">
+                <img src="~/images/Designer(5).jpeg" class="d-block w-50" alt="...">
+            </div>
+            <div class="carousel-item d-flex justify-content-center align-items-center" style="height: 300px;">
+                <img src="~/images/Designer(6).jpeg" class="d-block w-50" alt="...">
+            </div>
+            <div class="carousel-item d-flex justify-content-center align-items-center" style="height: 300px;">
+                <img src="~/images/Designer(8).jpeg" class="d-block w-50" alt="...">
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+   
+
+
+
     <!-- Services Section -->
     <section id="services" class="py-5">
         <div class="container">
@@ -46,12 +88,12 @@
                     <p>Renew your style with our professional cutting services.</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="/images/hair-color.jpg" alt="Hair Dye" class="img-fluid mb-3">
+                    <img src="/images/hair-color2.jpeg" alt="Hair Dye" class="img-fluid mb-3">
                     <h3>Hair Dye</h3>
                     <p>We apply the latest color trends and techniques.</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="/images/hair-model.PNG" alt="Hair Styling" class="img-fluid mb-3">
+                    <img src="/images/hair-styling.png" alt="Hair Styling" class="img-fluid mb-3">
                     <h3>Hair Styling</h3>
                     <p>We carefully design the unique model that will make you feel the best.</p>
                 </div>
@@ -59,15 +101,15 @@
         </div>
     </section>
 
-  @*   <!-- Footer -->
+    @*   <!-- Footer -->
     <footer class="footer text-center py-4">
-        <div class="container">
-            <p>© 2024 Coiffeur Lotus. All Rights Reserved.</p>
-            <p>Thank you for choosing us</p>
-        </div>
+    <div class="container">
+    <p>© 2024 Coiffeur Lotus. All Rights Reserved.</p>
+    <p>Thank you for choosing us</p>
+    </div>
     </footer>
 
- *@
+    *@
 
     <!-- Bootstrap JS ve jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

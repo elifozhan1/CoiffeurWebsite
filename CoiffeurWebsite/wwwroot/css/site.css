@@ -1,31 +1,32 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 <style >
 
 .navbar-custom {
-    background-color: #fff9fa; /* Arka plan rengi */
+    background: linear-gradient(45deg, #ffafc9, #ffe7f3); /* Gradient arka plan */
     color: #343a40; /* Yazý rengi koyu gri */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-custom .navbar-brand,
@@ -36,6 +37,43 @@ body {
     .navbar-custom .nav-link:hover {
         color: #ffcc00; /* Hover durumunda renk deðiþebilir (örneðin sarý) */
     }
+
+
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute; /* Resim üzerinde konumlandýrmak için */
+    top: 50%; /* Dikey olarak ortalamak için */
+    transform: translateY(-50%); /* Dikey hizalamayý tamamlamak için */
+    z-index: 10; /* Resimlerin üstünde kalmasýný saðlar */
+    width: auto; /* Buton geniþliði simgeyle sýnýrlý */
+    height: auto; /* Buton yüksekliði simgeyle sýnýrlý */
+    background: none; /* Arka planý kaldýrýr */
+    border: none; /* Kenarlýklarý kaldýrýr */
+    cursor: pointer; /* Týklanabilir iþaretçi */
+    margin: 0; /* Varsayýlan margin'i sýfýrlar */
+    padding: 0; /* Varsayýlan padding'i sýfýrlar */
+    color: white; /* Ok ikonunun rengini beyaz yapar */
+}
+
+.carousel-control-prev {
+    left: 1rem; /* Sol kenara yakýn */
+    transform: translateX(-50%); /* Ok iþaretlerini resmin tam yanýna çeker */
+}
+
+.carousel-control-next {
+    right: 1rem; /* Sað kenara yakýn */
+    transform: translateX(50%); /* Ok iþaretlerini resmin tam yanýna çeker */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 2rem; /* Ok simgesinin boyutu */
+    height: 2rem;
+    background-size: contain; /* Simgelerin içinde ölçeklenmesini saðlar */
+    background-repeat: no-repeat; /* Simgelerin tekrarlanmasýný önler */
+    background-position: center; /* Ortalanmýþ bir simge saðlar */
+    filter: invert(1); /* Beyaz simgeler için kullanýlýr (ikonun ters çevrilmesi) */
+}
+
 
 
 html, body {

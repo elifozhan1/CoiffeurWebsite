@@ -30,8 +30,9 @@
         </select>
         <span asp-validation-for="Style" class="text-danger"></span>
     </div>
+    <br></br>
 
-    <button type="submit" class="btn btn-primary">Change</button>
+    <button type="submit" class="btn btn-outline-success">Change</button>
 </form>
 
 @if (Model != null && !string.IsNullOrEmpty(Model.ProcessedResult))
