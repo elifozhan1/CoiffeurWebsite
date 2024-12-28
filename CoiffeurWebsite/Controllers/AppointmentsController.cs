@@ -79,40 +79,39 @@ namespace CoiffeurWebsite.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("AppointmentID,AppointmentDate,Status,EmployeeID,TreatmentID")] Appointment appointment)
         {
-            //if (ModelState.IsValid)
-            //{ }
-                // Giriş yapan kullanıcının e-postasını al
-                var userEmail = User.Identity.Name;
-                var user = await _userManager.FindByEmailAsync(userEmail);
+            // Kullanıcı e-postasını al
+            var userEmail = User.Identity.Name;
+            var user = await _userManager.FindByEmailAsync(userEmail);
 
-                if (user == null)
-                {
-                    return NotFound("Kullanıcı bulunamadı.");
-                }
+            if (user == null)
+            {
+                return NotFound("Kullanıcı bulunamadı.");
+            }
 
-                // UserId'yi ata
-                appointment.userId = user.Id;
+            // UserId'yi ata
+            appointment.userId = user.Id;
 
-                // Varsayılan durum ataması
-                appointment.Status = "Pending";
+            // Varsayılan durum ataması
+            appointment.Status = "Pending";
 
-                if (!IsAppointmentAvailable(appointment.AppointmentDate))
-                {
-                    ModelState.AddModelError("AppointmentDate", "Bu tarih ve saatte zaten bir randevu bulunmaktadır.");
-                    return View(appointment);
-                }
+            // Aynı çalışan ve tarihte başka randevu var mı kontrolü
+            if (_context.Appointments.Any(a =>
+                a.EmployeeID == appointment.EmployeeID &&
+                a.AppointmentDate == appointment.AppointmentDate))
+            {
+                ModelState.AddModelError("AppointmentDate", "This employee has another appointment for the selected hour.");
 
+                // ViewBag tekrar dolduruluyor
+                ViewBag.Treatments = _context.Treatments.ToList();
+                ViewBag.Employees = _context.Employees.ToList();
 
-                _context.Add(appointment);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            
+                return View(appointment);
+            }
 
-            //ViewData["TreatmentID"] = new SelectList(_context.Treatments, "TreatmentID", "TreatmentName", appointment.TreatmentID);
-            //ViewData["EmployeeID"] = new SelectList(_context.Employees, "EmployeeID", "EmployeeName", appointment.EmployeeID);
-            //ViewBag.Treatments = _context.Treatments.ToList();
-            //ViewBag.Employees = _context.Employees.ToList();
-            //return View(appointment);
+            // Randevuyu kaydet
+            _context.Add(appointment);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
 
