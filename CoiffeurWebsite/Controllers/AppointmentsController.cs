@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using CoiffeurWebsite.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoiffeurWebsite.Controllers
 {
@@ -111,7 +112,7 @@ namespace CoiffeurWebsite.Controllers
             // Randevuyu kaydet
             _context.Add(appointment);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(MyAppointments));
         }
 
 
@@ -225,6 +226,24 @@ namespace CoiffeurWebsite.Controllers
 
             return Json(employees);
         }
+
+        [Authorize]
+        public async Task<IActionResult> MyAppointments()
+        {
+            // Giriş yapan kullanıcının UserId'sini alın
+            var currentUserId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            // Kullanıcının yalnızca kendi randevularını getirme
+            var userAppointments = await _context.Appointments
+                .Include(a => a.Employee)
+                .Include(a => a.Treatment)
+                .Include(a => a.User) // Kullanıcı bilgisine erişim için
+                .Where(a => a.userId == currentUserId) // Kullanıcıya ait randevular
+                .ToListAsync();
+
+            return View(userAppointments);
+        }
+
 
     }
 }

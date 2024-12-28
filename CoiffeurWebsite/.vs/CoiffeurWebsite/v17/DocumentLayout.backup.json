@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\appointments\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\appointments\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\appointments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\appointments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +43,12 @@
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\appointments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\appointments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CoiffeurWebsite/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -62,10 +82,6 @@
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -88,10 +104,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\user\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -117,7 +129,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -125,15 +137,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Index.cshtml",
+              "RelativeToolTip": "Views\\Appointments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T12:19:40.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppointmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\AppointmentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AppointmentsController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\AppointmentsController.cs",
-              "RelativeToolTip": "Controllers\\AppointmentsController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAwwGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:58:24.04Z",
+              "Title": "MyAppointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\MyAppointments.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointments\\MyAppointments.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\MyAppointments.cshtml*",
+              "RelativeToolTip": "Views\\Appointments\\MyAppointments.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T11:57:37.395Z",
               "EditorCaption": ""
             },
             {
@@ -144,40 +169,14 @@
               "RelativeDocumentMoniker": "Views\\Appointments\\Create.cshtml",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Create.cshtml",
               "RelativeToolTip": "Views\\Appointments\\Create.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAgwIsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-27T12:56:45.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Appointment.cs",
-              "RelativeDocumentMoniker": "Models\\Appointment.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Appointment.cs",
-              "RelativeToolTip": "Models\\Appointment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:56:28.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\ApiController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ApiController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\ApiController.cs",
-              "RelativeToolTip": "Controllers\\ApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T16:30:53.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -185,12 +184,11 @@
               "RelativeToolTip": "Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T10:57:40.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T10:57:40.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -202,7 +200,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAcwHIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:58:24.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T14:25:05.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Appointments\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T17:56:10.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -214,19 +251,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Appointments\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Appointments\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T17:56:10.783Z"
+              "WhenOpened": "2024-12-28T11:46:15.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T19:12:09.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "Controllers\\ApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T16:30:53.482Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\Appointment.cs",
+              "RelativeToolTip": "Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:56:28.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -238,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
@@ -250,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CoiffeurWebsite/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CoiffeurWebsite/True/SqlTable/dbo.AspNetUsers.sql",
@@ -259,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -271,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Appointments\\Delete.cshtml",
@@ -283,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -295,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -307,19 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T14:25:05.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -331,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -343,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -355,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -367,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -379,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -391,19 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employees\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T19:12:09.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Delete.cshtml",
@@ -415,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Edit.cshtml",
@@ -427,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -439,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
