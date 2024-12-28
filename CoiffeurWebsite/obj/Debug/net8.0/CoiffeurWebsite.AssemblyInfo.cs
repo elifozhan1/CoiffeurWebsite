@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoiffeurWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e52c51f18d9ba97771ca577bec7fe2fa96ce74bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b1fcefe895c22e38b89233bd97e0a2177a7caa1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoiffeurWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoiffeurWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

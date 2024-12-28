@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\zeynep\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\zeynep\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\appointments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\appointments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\zeynep\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\zeynep\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -55,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\zeynep\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\zeynep\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\treatments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\treatments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -85,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\zeynep\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|c:\\users\\zeynep\\documents\\github\\coiffeurwebsite\\coiffeurwebsite\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C793512-8E20-49A9-92FC-13F9EFA6C069}|CoiffeurWebsite.csproj|solutionrelative:views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,31 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\FileUpload\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\FileUpload\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\FileUpload\\Index.cshtml",
-              "RelativeToolTip": "Views\\FileUpload\\Index.cshtml",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Appointments\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T19:37:32.175Z"
+              "WhenOpened": "2024-12-28T20:01:02.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T19:37:18.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -142,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -154,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -166,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -178,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -190,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Appointments\\Index.cshtml",
@@ -202,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -214,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
@@ -227,7 +220,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T19:11:08.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T19:37:18.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Create.cshtml",
+              "RelativeToolTip": "Views\\Appointments\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T19:12:44.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\FileUpload\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\FileUpload\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\FileUpload\\Index.cshtml",
+              "RelativeToolTip": "Views\\FileUpload\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T19:37:32.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Treatments\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Treatments\\Index.cshtml",
@@ -239,19 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Appointments\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Appointments\\Create.cshtml",
-              "RelativeToolTip": "Views\\Appointments\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T19:12:44.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Treatments\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Treatments\\Details.cshtml",
@@ -263,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -275,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Delete.cshtml",
@@ -287,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Treatments\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Treatments\\Edit.cshtml",
@@ -299,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -311,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Details.cshtml",
@@ -323,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Edit.cshtml",
@@ -335,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Treatments\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Treatments\\Create.cshtml",
@@ -347,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Treatments\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Treatments\\Delete.cshtml",
@@ -356,18 +387,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-28T19:16:47.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employees\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Zeynep\\Documents\\GitHub\\CoiffeurWebsite\\CoiffeurWebsite\\Views\\Employees\\Create.cshtml",
-              "RelativeToolTip": "Views\\Employees\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T19:11:08.383Z"
             }
           ]
         }
