@@ -1,0 +1,45 @@
+﻿@model FileUploadViewModel
+
+<h2>Change Hairstyle</h2>
+
+<form asp-action="Index" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="File">Upload Image</label>
+        <input type="file" asp-for="File" class="form-control" />
+        <span asp-validation-for="File" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Style">Select Hairstyle</label>
+        <select asp-for="Style" class="form-control">
+            <option value="101">Bangs (Default)</option>
+            <option value="201">Long Hair</option>
+            <option value="301">Bangs with Long Hair</option>
+            <option value="401">Medium Hair Increase</option>
+            <option value="402">Light Hair Increase</option>
+            <option value="403">Heavy Hair Increase</option>
+            <option value="502">Light Curling</option>
+            <option value="503">Heavy Curling</option>
+            <option value="603">Short Hair</option>
+            <option value="801">Blonde</option>
+            <option value="901">Straight Hair</option>
+            <option value="1001">Oil-Free Hair</option>
+            <option value="1101">Hairline Fill</option>
+            <option value="1201">Smooth Hair</option>
+            <option value="1301">Fill Hair Gap</option>
+        </select>
+        <span asp-validation-for="Style" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Change</button>
+</form>
+
+@if (Model != null && !string.IsNullOrEmpty(Model.ProcessedResult))
+{
+    <h3>Processed Image:</h3>
+    <img src="@Model.ProcessedResult" alt="Processed Image" />
+}
+else
+{
+    <p>No processed image available.</p>
+}

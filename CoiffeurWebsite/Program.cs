@@ -16,6 +16,8 @@ namespace CoiffeurWebsite
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
+            builder.Services.AddHttpClient<HairstyleChangerService>();
+
             // Identity yapılandırması
             builder.Services.AddIdentity<UserDetails, IdentityRole>(options =>
             {
